@@ -1,3 +1,245 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// css for html,body
+html, body {
+    min-width: 1024px;
+    width: 100%;
+}
+body {
+    font-family: "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
+    padding: 0;
+    text-transform: uppercase;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+body {
+    background: url("/assets/store/nav-bg4.png") repeat-x scroll 0 0 transparent;
+}
+body {
+    background-color: #fff;
+    color: #404042;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+body {
+    margin: 0;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-family: sans-serif;
+}
+// css for header
+#fixedheader {
+position:fixed;
+top:0px;
+left:0px;
+width:100%;
+color:#CCC;
+//background:#333;
+padding:20px;
+}
+
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+.row-fluid [class*="span"] {
+    margin-left: 2%;
+}
+.row-fluid .span12 {
+    width: 100%;
+}
+.row-fluid [class*="span"] {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.5641%;
+    min-height: 30px;
+    width: 100%;
+}
+.row-fluid .span12 {
+    width: 100%;
+}
+.row-fluid [class*="span"] {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.12766%;
+    min-height: 30px;
+    width: 100%;
+}
+// css for div
+.span12 {
+    width: 1170px;
+}
+[class*="span"] {
+    float: left;
+    margin-left: 30px;
+    min-height: 1px;
+}
+.span12 {
+    width: 940px;
+}
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+    min-height: 1px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+// css for menu
+#nav-bar {
+    margin: 0;
+    padding-top: 0;
+}
+nav#top-nav-bar {
+    background-color: #000;
+    text-align: right;
+}
+nav#top-nav-bar {
+    background-color: #000;
+    text-align: right;
+}
+
+nav #main-nav-bar {
+    width: 860px;
+}
+nav #main-nav-bar {
+    font-weight: normal;
+    margin: 14px 10px 0;
+    text-transform: uppercase;
+    
+}
+a:link {
+}
+
+a {
+    color: #232323;
+}
+a {
+   color: #08c;
+    text-decoration: none;
+}
+a {
+    color: #00adee;
+    text-decoration: none;
+}
+nav #main-nav-bar {
+    font-weight: normal;
+    margin: 14px 10px 0;
+    text-transform: uppercase;
+}
+#main-nav-bar {
+    position: relative;
+}
+nav #main-nav-bar li{
+  a:hover{
+    text-decoration:none;
+  }
+  
+}
+#main-nav-bar
+li.active a{
+  color:#c21e2d;
+}
+
+ul.inline, ol.inline {
+    list-style: outside none none;
+    margin-left: 0;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+ul, ol {
+    margin: 0;
+}
+ul, ol {
+    margin: 0 0 10px 25px;
+    padding: 0;
+}
+ol, ul {
+    list-style: outside none none;
+}
+ul, ol {
+    list-style-position: inside;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+
+#main-nav-bar {
+    position: relative;
+}
+// css for menu logo
+#logo {
+    margin: 0 0 0 2.2em;
+}
+.levi-logo {
+    float: left;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+figure {
+    margin: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+ 
+
+
+
+
+
+//css for footer
+#fixedfooter {
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+color:#CCC;
+//background:#333;
+padding:8px;
+}
