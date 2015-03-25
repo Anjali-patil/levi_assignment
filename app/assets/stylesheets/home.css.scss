@@ -4,6 +4,10 @@
 
 // css for html,body
 html, body {
+    width: 100%;
+}
+
+html, body {
     min-width: 1024px;
     width: 100%;
 }
@@ -15,23 +19,1316 @@ body {
 body {
     background-color: #fff;
     color: #333;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin: 0;
+     text-transform: uppercase;
 }
-body {
-    background: url("/assets/store/nav-bg4.png") repeat-x scroll 0 0 transparent;
+
+html {
+    font-size: 100%;
 }
-body {
-    background-color: #fff;
-    color: #404042;
-    font-family: "Ubuntu",sans-serif;
+html {
+    font-family: sans-serif;
+}
+// css for header
+#fixedheader {
+position:fixed;
+top:0px;
+left:0px;
+width:100%;
+//color:#CCC;
+//background:#333;
+//padding:20px;
+}
+
+.menuHeding{
+  margin-left: 12px;
+  font-family: "TradeGothicW01-BoldCn20 675334" !important;
+    font-weight: bold;
+  color: #666666;
+    font-size: 1.35em;
+    line-height: 10px;
+    margin: 16px 0 0;
+    padding: 0 0 10px;
+
+}
+
+
+// css for div
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+// top navigation bar
+#nav-bar {
+    margin: 0;
+    padding-top: 0;
+}
+nav#top-nav-bar {
+  margin-left: -15px;
+    background-color: #000;
+    text-align: left;
+     display: block;
+   min-height: 30px;
+    width: 100%;
+    width:auto;
+}
+// main men submenu css
+
+.mensection{
+ 
+  border-width: 1px; 
+  border-style: solid;
+   
+  border-color: -moz-use-text-color -moz-use-text-color white; 
+  -moz-border-top-colors:none; 
+  //-moz-border-right-colors; 
+  -moz-border-bottom-colors:none; 
+  -moz-border-left-colors:1px; 
+  border-image:none; z-index: 1000;
+}
+ //css for main menu men etc
+.myMenu {
+  
+  font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 16px;
+    //padding: 7px;
+    list-style-type: none;
+   position:auto;
+    padding: 10px;
+    padding-top:16px;
+    width:100%;
+} 
+
+// css for main menu li sectiction
+.myMenu li {
+  list-style:none; 
+  float:left; 
+  font:12px Arial, Helvetica, sans-serif #111;
+  margin-left: 1px;
+ //display: inline-block!important;
+ // padding:10px;
+  width: auto!important;
+  // white-space: nowrap;
+ 
+}
+
+.myMenu li a:link,.myMenu li a:visited {
+   display:block; 
+   text-decoration:none;  
+   margin:0; 
+  // border-right: 1px solid #fff; 
+   color:#111; 
+   }
+
+.myMenu li a{
+  width:auto!important;
+  padding:7px;
+}
+
+.myMenu a {
+  color: #000000;
+    display: block;
+    width: 100%;
+    
+}
+ .myMenu a:link, a:visited {
+   
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.myMenu li.active a{
+       
+       }
+a:hover{
+  color: #c21e2d!important;
+}
+
+
+
+// css for sub menu
+.sub-menu {
+  //visibility:hidden; 
+    background-color: #ffffff;
+    border: 1px solid #000;
+    display: none;
+    margin-left: 12.4em;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 80px;
+    width: 860px;
+    z-index: 1000 !important;
+}
+.sub-menu hr {
+    border-right: 1px solid #a5a5a5;
+    border-top: 0 none;
+    float: left;
+    margin-bottom: 0;
+    width: 0;
+}
+.sub-menu hr:first-child {
+    display: none;
+}
+.sub-menu hr:nth-child(7) {
+    display: none;
+}
+.sub-menu .sub-cat {
+    float: left;
+    margin-left: 2%;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 30%;
+}
+.sub-menu .sub-cat:last-child {
+    border-right: medium none;
+}
+.sub-menu .sub-cat h3 {
+   font-family: "TradeGothicW01-BoldCn20 675334";
+    font-weight:bold;
+    color: #666666;
+    font-size: 0.9em;
+    line-height: 15px;
+     margin: 16px 38px 0;
+    padding: 0 0 10px
+}
+.sub-menu .sub-cat h3:first-child {
+    margin-top: 0;
+}
+.sub-menu .sub-cat .sub-cat-h3 {
+    margin-top: -20px;
+    padding-top: 13%;
+}
+.sub-menu .sub-cat .remove-right-border {
+    border-right: 1px solid #fff;
+    margin: 0 !important;
+}
+.sub-menu .sub-cat ul {
+    list-style: outside none none;
+}
+.sub-menu .sub-cat ul li {
+  //display:block;
+  color:#000 !important;
+    line-height: 21px;
+    text-align:left;
+}
+.sub-menu .sub-cat ul li a {
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-weight:bold;
+    font-size:10px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.sub-menu .sub-cat ul li a:hover {
+    color: #c21e2d;
+    text-decoration: none;
+}
+.sub-menu .sub-cat .fix-padding {
+    padding-bottom: 5%;
+}
+.show-sub-menu {
+    display: block;
+}
+.fix-height {
+    height: 220px;
+}
+.prod-list h2 {
+    color: #232323;
+    font-size: 1.4em;
+    margin: 0 0 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+.prod-list .list-type-02 {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+.prod-list .list-type-02 li {
+    display: inline-table;
+    height: 70px;
+    margin-bottom: 0;
+    margin-left: 2.4% !important;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 86px;
+    min-width: 70px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 70px;
+}
+.prod-list .list-type-02 li a img {
+    border: 1px dotted #000000;
+    height: 70px;
+    width: 69px;
+}
+.prod-list .list-type-02 li a:hover img {
+    border: 1px solid #000;
+}
+.prod-list .list-type-02 li p {
+    color: #232323;
+    cursor: default;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 0.875em;
+    left: 2px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding-top: 8px;
+    position: relative;
+    width: 73px;
+    word-wrap: break-word;
+}
+.prod-list .fifths {
+    padding: 0.75% 0;
+}
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+.g1-shop-category ul {
+    display: table;
+    list-style: outside none none;
+    margin: 0 auto;
+    max-height: 610px;
+    max-width: 1000px;
+}
+.g1-shop-category ul li {
+    display: inline-block;
+    margin: 15px 8px;
+    position: relative;
+    vertical-align: middle;
+    width: 200px;
+}
+.g1-shop-category ul li .overlay {
+    background-color: #000000;
+    bottom: 0;
+    height: 44px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 80%;
+    transition: opacity 0.25s linear 0s;
+    width: 200px;
+    z-index: 5;
+}
+.g1-shop-category ul li h4 {
+    bottom: 0;
+    color: #ffffff;
+    font-size: 1em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+.g1-shop-category ul li img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+.g1-shop-category ul li:hover .overlay {
+    opacity: 0.8;
+}
+.g-shop-by li {
+    background: none repeat scroll 0 0 #cccccc;
+    border: 1px solid #969898;
+    display: inline-block;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    height: 70px;
+    margin: 10px 24px;
+    position: relative;
+    vertical-align: middle;
+    width: 70px;
+}
+.g-shop-by li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.g-shop-by li a p {
+    color: #ffffff;
+    font-size: 1.7em;
+    margin: 0;
+    padding-top: 35%;
+    text-align: center;
+}
+.g-shop-by li a p sup {
+    font-size: 18px !important;
+    position: relative;
+    top: -0.3em;
+    vertical-align: baseline;
+}
+.g-shop-by li a .hover-cta {
+    background: none repeat scroll 0 0 #c21e2d;
+    border: 1px solid #ffffff;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.g-shop-by li a:hover .hover-cta {
+    display: table;
+}
+.g-shop-by li div.hover-cta p {
+    display: table-cell;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 0.75em;
+    margin-top: 10px;
+    padding-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.g-shop-by li.break {
+    border: medium none;
+    height: 0 !important;
+    margin: 0 !important;
+    max-width: none;
+    width: 100% !important;
+}
+
+//serchbox
+#search-bar #taxon {
+    display: none;
+}
+#search-bar {
+    margin-top: -23px;
+    border: 1px solid #232323;
+    border-radius: 4px;
+    float: left;
+    width: 215px;
+    margin-left: 32px;
+}
+#search-bar input[type="search"] {
+    float: left;
+}
+#search-bar input[type="submit"] {
+    background: url("/assets/nav-sprites.png") no-repeat scroll -66px -28px transparent;
+    border-width: 0px;
+    float:right;
+    height: 20px;
+    padding-right: 14px;
+    text-indent: -9999px;
+}
+#search-bar input[type="search"] {
+  color:#000;
+    border: medium none;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
+    height: 20px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    width: 183px;
 }
-body {
+#header #search-bar {
+    margin: 15px 15px 15px 0;
+}
+
+
+// css for menu bar logo
+#logo {
+    margin: 0 0 0 2.2em;
+}
+.levi-logo {
+    float: left;
+}
+
+// css for  main-div-udoun row-fluid 
+
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::after {
+    clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid::after {
+    clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid {
+    width: 100%;
+}
+.row-fluid {
+    width: 100%;
+}
+.main-div-updown {
+    height: auto;
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+.deal-nav-box {
+    display: inline;
+    font-size: 11px;
+    padding: 5px;
+}
+// .deal-nav-box:hover {
+    // color: #c51230;
+// }
+// css for up down menu 
+.tab {
+    background-color: #e3e2e2;
+    border-radius: 6px 6px 0 0;
+    bottom: 0;
+    box-shadow: 6px 0 2px -2px #cccccc inset, -6px 0 2px -2px #cccccc inset, 0 6px 2px -2px #cccccc inset;
+    float: right;
+    height: 25px;
+    margin-right: 21px;
+    margin-top: -2px;
+    position: relative;
+    z-index: 1;
+}
+
+.tab .tab-visual-hack {
+    background-color: #e3e2e2;
+    bottom: -5px;
+    height: 10px;
+    position: absolute;
+    right: 2%;
+    width: 95%;
+}
+.TabMainDiv {
+    background-color: #e3e2e2;
+    box-shadow: 0 6px 2px -2px #cccccc inset;
+    height: 150px;
+    margin-top: -5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.TabMainDiv .deal-box {
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 12px 0;
+}
+.TabMainDiv .deal-box .latest-deals-box {
+    background-color: white;
+    float: left;
+    line-height: 15px;
+    margin: 0 1%;
+    padding: 10px;
+    text-align: center;
+    width: 46%;
+}
+.subUpdowndiv {
+    background-color: #e3e2e2;
+    margin-top: 28px;
+    position: relative;
+    width: 100%;
+}
+.contentUpDownDiv {
+    position: relative;
+    z-index: 0;
+}
+.main-div-updown {
+    height: auto;
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+}
+.up-down-anchor {
+    float: left;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    outline: medium none;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 3px;
+}
+.up-down-anchor:hover, .up-down-anchor:active, .up-down-anchor:focus {
+    color: inherit;
+    outline: medium none;
+    text-decoration: none;
+}
+.up-down-anchor.active-deal {
+    color: #c21e2d;
+    margin-right: 4px;
+}
+.UpdownSpan {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #c51230 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px 5px;
+    content: " ";
+    display: none;
+    height: 0;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 38%;
+    width: 0;
+}
+.closeDiv {
+    float: left;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    margin-left: -6px;
+    margin-right: 6px;
+    margin-top: 2px;
+    text-transform: none;
+}
+a.link-button {
+    background: url("/assets/store/icon_arrowGo.png") no-repeat scroll right 0 transparent;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 19px;
+    padding-right: 25px;
+}
+a.link-button:hover {
+    background-position: right 104%;
+}
+a.link-button.underlined {
+    text-decoration: underline;
+}
+.btn-highlight-more {
+    color: #c21e2d;
+    margin: 0 auto;
+}
+.btn-highlight-more:hover {
+    color: #ccc!important;
+    text-decoration: none;
+}
+.btn-highlight-more p {
+    display: inline;
+    text-decoration: underline;
+}
+.btn-highlight-more span {
+    background: url("/assets/cta-arrows.png") no-repeat scroll -21px -22px transparent;
+    color: transparent;
+    margin-left: 5px;
+    padding-left: 0;
+    padding-right: 7px;
+    text-indent: -9999px;
+}
+.btn-highlight-more:hover span {
+    background-position: -59px -22px;
+}
+// css code for footer menu
+footer{
+  background: none repeat scroll 0 0 #e4e4e4;
+    color: #232323;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    border: 4px solid black;
+    border-left:none;
+    border-right:none;
+  position: fixed; 
+  bottom: 0px; 
+  width: 100%; 
+}
+ 
+ 
+footer#footer {
+    background: none repeat scroll 0 0 #e4e4e4;
+    color: #232323;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    margin-bottom: 52px;
+    min-height: 415px;
+    padding-bottom: 0;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+footer#footer {
+    border-top: 4px solid #000000;
+    padding: 10px 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+ 
+footer#footer .footer-nav-div .footer-div .footer-text-link {
+    margin: 0 5% 8% 9.9%;
+}
+footer#footer .footer-nav-div .footer-div {
+    margin: 0 auto;
+    width: 940px;
+}
+footer#footer .footer-nav-div .footer-div ul {
+    float: left;
+    height: 234px;
+    list-style: outside none none;
+    margin: 0 4% 8% 0;
+    width: 185px;
+}
+ul, ol {
+    margin: 0;
+}
+ul, ol {
+    margin: 0 0 10px 25px;
+    padding: 0;
+}
+ol, ul {
+    list-style: outside none none;
+}
+ul, ol {
+    list-style-position: inside;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+
+footer#footer .footer-nav-div .footer-div .footer-social-link a {
+    font-family: "TradeGothicW01-BoldCn20 675334" !important;
+}
+footer#footer .footer-nav-div .footer-div ul li a {
+    color: #232323;
+    font-family: "Trade Gothic W01 Cn 18";
+    font-size: 0.75em;
+}
+footer#footer a[rel="external"] {
+    background: url("/assets/external-link.png") no-repeat scroll right center transparent;
+    display: inline-block;
+    margin-left: 1px;
+    padding-right: 20px;
+    vertical-align: inherit;
+}
+a:link {
+}
+a {
+    color: #232323;
+}
+a {
+    color: #08c;
+    text-decoration: none;
+}
+a {
+    color: #00adee;
+    text-decoration: none;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+
+// css for subscribe & save
+
+footer#footer .footer-nav-div .footer-div .footer-subscribe {
+    float: left;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+
+// subscribe  form
+form {
+    margin: 0 0 20px;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe form p {
+    font-family: "Trade Gothic W01 Cn 18";
+    font-size: 10px !important;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+
+footer#footer .footer-nav-div .footer-div ul li h3, footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
+    border-top: 2px solid #000000;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin: 0 0 28px;
+    padding: 15px 0 0;
+}
+footer#footer .footer-nav-div .footer-div ul li h3 {
+    margin: 0 0 22px !important;
+}
+h1, h2, h3, h4, h4, h5 {
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-weight: normal;
+}
+h3 {
+    font-size: 24.5px;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 10px 0;
+    text-rendering: optimizelegibility;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #404042;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+p.email-container {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 170px;
+}
+p {
+    padding: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+p {
+    padding: 10px 0;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+footer#footer .footer-nav-div .footer-div ul li {
+    line-height: 24.5px;
+}
+footer#footer .footer-nav-div .footer-div ul li h3 {
+    margin: 0 0 22px !important;
+}
+footer#footer .footer-nav-div .footer-div ul li a {
+    color: #232323;
+    font-family: "Trade Gothic W01 Cn 18";
+    font-size: 0.75em;
+}
+footer#footer .footer-nav-div .footer-div ul li a span {
+    text-decoration: underline;
+}
+footer#footer .footer-nav-div .footer-div ul li a span:hover {
+    color: #c21e2d;
+}
+footer#footer .footer-nav-div .footer-div ul li a:hover {
+    text-decoration: none;
+}
+footer#footer .footer-nav-div .footer-div .footer-text-link {
+    margin: 0 5% 8% 9.9%;
+}
+footer#footer .footer-nav-div .footer-div .footer-social-link a {
+    font-family: "TradeGothicW01-BoldCn20 675334" !important;
+}
+footer#footer .footer-nav-div .footer-div .footer-social-link a span {
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+}
+footer#footer .footer-nav-div .footer-div .footer-social-link a span:hover {
+    color: #232323;
+    text-decoration: underline;
+}
+footer#footer .footer-nav-div .footer-div .footer-social-link a .fa-lg {
+    vertical-align: -12%;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe {
+    float: left;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe a:hover {
+    color: #c21e2d;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
+    width: 185px;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe form {
+    width: 268px;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+    background-position: 0 2px;
+}
+
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+    margin: 2px 0 0;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+    background-position: 0 2px;
+}
+footer#footer .footer-nav-div .footer-div .footer-subscribe form label {
+    font: 8px "Trade Gothic W01 Cn 18"!important ;
+    letter-spacing: 1px;
+    width: 100%;
+}
+input[type="checkbox"] + label {
+    background: url("/assets/checkbox.png") no-repeat scroll 0 4px transparent;
+    clear: none;
+    margin: 10px 0 0;
+    padding: 0 0 0 18px;
+}
+label {
+    margin-bottom: 3px;
+}
+label {
+    font-family: "TradeGothicW01-BoldCn20 675334";
+}
+label {
+    display: inline-block;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+input[type="checkbox"], label {
+    vertical-align: middle;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+input[type="checkbox"], input[type="radio"] {
+    line-height: normal;
+    margin: 4px 0 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 4px 0 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+button, input {
+    line-height: normal;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+input, button, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input, textarea, .uneditable-input {
+    width: 206px;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+input, button, select, textarea {
+    font-family: "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+
+
+
+footer#footer .footer-nav-div .footer-div .footer-subscribe form p {
+    font-family: "Trade Gothic W01 Cn 18";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+p.email-container input[type="text"] {
+    border: medium none;
+    font-size: 14px;
+    height: 20px;
+    margin: 5px;
+    padding: 0;
+    width: 150px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    height: 34px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    border-color: #000;
+    border-radius: 0;
+    color: #000;
+    font-size: 16px;
+    height: 36px;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    box-shadow: none;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  //  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    border-radius: 4px;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    border: 1px solid #d9d9db;
+    box-sizing: border-box;
+    font: 16px/26px "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
+    padding: 5px;
+}
+input, button, select, textarea {
+    font-family: "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+input, textarea, .uneditable-input {
+    width: 206px;
+}
+input, button, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
     margin: 0;
 }
 *::-moz-placeholder {
@@ -50,196 +1347,202 @@ body {
     color: #fff;
     text-shadow: none;
 }
-html {
-    font-size: 100%;
+footer#footer .footer-nav-div .footer-div .footer-subscribe form .email-container {
+    height: 28px;
+    margin-bottom: 2%;
 }
-html {
-    font-family: sans-serif;
+footer#footer .footer-nav-div .footer-div .footer-subscribe form .email-container a.black-arrow-right-small {
+    margin: 6px 7px 0 0;
 }
-// css for header
-#fixedheader {
-position:fixed;
-top:0px;
-left:0px;
-width:100%;
-color:#CCC;
-//background:#333;
-padding:20px;
-}
-
-.row-fluid [class*="span"]:first-child {
-    margin-left: 0;
-}
-.row-fluid [class*="span"]:first-child {
-    margin-left: 0;
-}
-.row-fluid [class*="span"] {
-    margin-left: 2%;
-}
-.row-fluid .span12 {
+footer#footer .footer-nav-div .footer-div .footer-subscribe form label {
+    font: 10px "Trade Gothic W01 Cn 18";
+    letter-spacing: 1px;
     width: 100%;
 }
-.row-fluid [class*="span"] {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    margin-left: 2.5641%;
-    min-height: 30px;
-    width: 100%;
+footer#footer .footer-nav-div .footer-div .footer-subscribe form label a {
+    color: #232323;
+    text-decoration: underline;
 }
-.row-fluid .span12 {
-    width: 100%;
+footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] {
+    vertical-align: top;
 }
-.row-fluid [class*="span"] {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    margin-left: 2.12766%;
-    min-height: 30px;
-    width: 100%;
-}
-// css for div
-.span12 {
-    width: 1170px;
-}
-[class*="span"] {
-    float: left;
-    margin-left: 30px;
-    min-height: 1px;
-}
-.span12 {
-    width: 940px;
-}
-[class*="span"] {
-    float: left;
-    margin-left: 20px;
-    min-height: 1px;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    display: block;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
-    display: block;
+footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+    margin: 2px 0 0;
 }
 
-// css for menu
-#nav-bar {
-    margin: 0;
-    padding-top: 0;
+a.black-arrow-right-small {
+    background: url("/assets/nav-sprites.png") no-repeat scroll -6px -29px transparent;
+    display: inline-block;
+    height: 17px;
+    margin: 6px 10px 0 0;
+    position: absolute;
+    right: -4px;
+    top: 0;
+    width: 19px;
 }
-nav#top-nav-bar {
-    background-color: #000;
-    text-align: right;
+.footer-arrow-click {
+    cursor: pointer;
 }
-nav#top-nav-bar {
-    background-color: #000;
-    text-align: right;
-}
-
-nav #main-nav-bar {
-    width: 860px;
-}
-nav #main-nav-bar {
-    font-weight: normal;
-    margin: 14px 10px 0;
-    text-transform: uppercase;
-    
-}
-a:link {
-}
-
 a {
     color: #232323;
 }
 a {
-   color: #08c;
+    color: #08c;
     text-decoration: none;
 }
 a {
     color: #00adee;
     text-decoration: none;
 }
-nav #main-nav-bar {
-    font-weight: normal;
-    margin: 14px 10px 0;
-    text-transform: uppercase;
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
 }
-#main-nav-bar {
-    position: relative;
-}
-nav #main-nav-bar li{
-  a:hover{
-    text-decoration:none;
-  }
-  
-}
-#main-nav-bar
-li.active a{
-  color:#c21e2d;
-}
-
-ul.inline, ol.inline {
-    list-style: outside none none;
-    margin-left: 0;
-}
-
-ol, ul {
-    list-style: outside none none;
-}
-ul, ol {
-    margin: 0;
-}
-ul, ol {
-    margin: 0 0 10px 25px;
-    padding: 0;
-}
-ol, ul {
-    list-style: outside none none;
-}
-ul, ol {
-    list-style-position: inside;
-    margin-left: 0;
-    margin-top: 0;
-    padding-left: 0;
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
 }
 *::-moz-selection {
     background: none repeat scroll 0 0 #c30d2d;
     color: white;
 }
-
-#main-nav-bar {
-    position: relative;
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
 }
-// css for menu logo
-#logo {
-    margin: 0 0 0 2.2em;
+footer#footer .footer-menu {
+    border-top: 1px dotted #000000;
+    font-size: 12px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 3% 0 4% 2.3%;
+    text-align: center;
+    width: 866px;
 }
-.levi-logo {
-    float: left;
+footer#footer .footer-menu li {
+    display: inline-block;
+    line-height: 1.5em;
+    margin: 0 31px 0 0;
+    max-width: 12.5%;
+    padding: 0;
+    vertical-align: top;
+    width: auto;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+footer#footer .footer-menu li a {
+    color: #232323;
+}
+footer#footer .footer-menu li a:hover {
+    text-decoration: underline;
+}
+footer#footer .copyright {
+    font-size: 12px;
+    line-height: 17px;
+    padding-bottom: 38px;
+    padding-top: 38px;
+    text-align: center;
+}
+footer#footer .footer-nav-div .footer-div ul li {
+    font-size: 14px !important;
+}
+footer#footer .footer-nav-div .footer-div ul li h3, footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
+    border-top: 2px solid #000000;
+    font-size: 14px !important;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin: 0 0 28px;
+    padding: 15px 0 0;
+}
+.clearfix::before, .clearfix::after, .row::before, .row::after {
+    content: " 0020";
     display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
 }
-figure {
-    margin: 0;
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    line-height: 0;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix::before, .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.row::after, .clearfix::after {
+    clear: both;
+}
+.clearfix::before, .clearfix::after, .row::before, .row::after {
+    content: " 0020";
     display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix::before, .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+footer#footer .footer-nav-div {
+    min-height: 359px;
+}
+.row, .clearfix {
+}
+.clearfix {
+}
+.clearfix {
+}
+.clearfix {
+    clear: both;
+}
+*::-moz-placeholder {
+    color: #a9a9a9 !important;
+}
+*::-moz-placeholder {
+    color: black;
+    text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #c30d2d;
+    color: white;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 #00adee;
+    color: #fff;
+    text-shadow: none;
 }
 
- 
 
 
-
-
-
-//css for footer
-#fixedfooter {
-position:fixed;
-bottom:0px;
-left:0px;
-width:100%;
-color:#CCC;
-//background:#333;
-padding:8px;
-}
