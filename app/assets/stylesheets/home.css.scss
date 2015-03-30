@@ -60,34 +60,13 @@ width:100%;
 //background:#333;
 //padding:20px;
 }
-.row-fluid::after {
-    clear: both;
-}
-.row-fluid::before, .row-fluid::after {
-    content: "";
-    display: table;
-    line-height: 0;
-}
-.row-fluid::after {
-    clear: both;
-}
-.row-fluid::before, .row-fluid::after {
-    content: "";
-    display: table;
-    line-height: 0;
-}
-.row-fluid {
-    width: 100%;
-}
-.row-fluid {
-    width: 100%;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    display: block;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
-    display: block;
-}
+
+// article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    // display: block;
+// }
+// article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    // display: block;
+// }
 
 // css for main menu
 .menuHeding{
@@ -130,8 +109,7 @@ nav#top-nav-bar {
 }
  //css for main menu men etc
 .myMenu {
-  
-    font-family: "TradeGothicW01-BoldCn20 675334";
+  font-family: "TradeGothicW01-BoldCn20 675334";
     font-size: 16px;
     //padding: 7px;
     list-style-type: none;
@@ -146,53 +124,6 @@ nav#top-nav-bar {
 //position: relative;
 } 
 
-
-// .row-fluid [class*="span"] {
-    // margin-left: 2%;
-// }
-// .row-fluid .span8 {
-    // width: 65.812%;
-// }
-// .row-fluid [class*="span"] {
-    // box-sizing: border-box;
-    // display: block;
-    // float: left;
-    // margin-left: 2.5641%;
-    // min-height: 30px;
-    // width: 100%;
-// }
-// .row-fluid .span8 {
-    // width: 65.9575%;
-// }
-// .row-fluid [class*="span"] {
-    // box-sizing: border-box;
-    // display: block;
-    // float: left;
-    // margin-left: 2.12766%;
-    // min-height: 30px;
-    // width: 100%;
-// }
-// ul.inline, ol.inline {
-    // list-style: outside none none;
-    // margin-left: 0;
-// }
-// .span8 {
-    // width: 770px;
-// }
-// [class*="span"] {
-    // float: left;
-    // margin-left: 30px;
-    // min-height: 1px;
-// }
-// .span8 {
-    // width: 620px;
-// }
-// [class*="span"] {
-    // float: left;
-    // margin-left: 20px;
-    // min-height: 1px;
-// }
-
 nav #main-nav-bar {
     width: 860px;
 }
@@ -205,65 +136,12 @@ nav #main-nav-bar {
     position: relative;
 }
 .row-fluid [class*="span"] {
-    margin-left: 2%;
-}
-.row-fluid .span8 {
-    width: 65.812%;
-}
-.row-fluid [class*="span"] {
     box-sizing: border-box;
     display: block;
     float: left;
     margin-left: 2.5641%;
     min-height: 30px;
     width: 100%;
-}
-.row-fluid .span8 {
-    width: 65.9575%;
-}
-.row-fluid [class*="span"] {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    margin-left: 2.12766%;
-    min-height: 30px;
-    width: 100%;
-}
-ul.inline, ol.inline {
-    list-style: outside none none;
-    margin-left: 0;
-}
-.span8 {
-    width: 770px;
-}
-[class*="span"] {
-    float: left;
-    margin-left: 30px;
-    min-height: 1px;
-}
-.span8 {
-    width: 620px;
-}
-[class*="span"] {
-    float: left;
-    margin-left: 20px;
-    min-height: 1px;
-}
-ul, ol {
-    margin: 0;
-}
-ul, ol {
-    margin: 0 0 10px 25px;
-    padding: 0;
-}
-ol, ul {
-    list-style: outside none none;
-}
-ul, ol {
-    list-style-position: inside;
-    margin-left: 0;
-    margin-top: 0;
-    padding-left: 0;
 }
 // css for main menu li sectiction
 .myMenu li {
@@ -275,9 +153,7 @@ ul, ol {
  // padding:10px;
   width: auto!important;
   // white-space: nowrap;
- 
 }
-
 .myMenu li a:link,.myMenu li a:visited {
    display:block; 
    text-decoration:none;  
@@ -307,14 +183,10 @@ ul, ol {
     text-transform: uppercase;
 }
 
-.myMenu li.active a{
-       
-       }
 a:hover{
    
   color: #c21e2d!important;
 }
-
 
 
 // css for sub menu
@@ -323,13 +195,14 @@ a:hover{
     background-color: #ffffff;
     border: 1px solid #000;
     display: none;
-    margin-left: 12.4em;
+    // margin-left: 12.4em;
     padding-bottom: 20px;
     position: absolute;
     top: 80px;
     width: 860px;
     z-index: 1000 !important;
 }
+
 .sub-menu hr {
     border-right: 1px solid #a5a5a5;
     border-top: 0 none;
@@ -337,12 +210,7 @@ a:hover{
     margin-bottom: 0;
     width: 0;
 }
-.sub-menu hr:first-child {
-    display: none;
-}
-.sub-menu hr:nth-child(7) {
-    display: none;
-}
+
 .sub-menu .sub-cat {
     float: left;
     margin-left: 2%;
@@ -350,25 +218,14 @@ a:hover{
     margin-top: 20px;
     width: 30%;
 }
-.sub-menu .sub-cat:last-child {
-    border-right: medium none;
-}
+
 .sub-menu .sub-cat h3 {
    font-family: "TradeGothicW01-BoldCn20 675334";
     font-weight:bold;
     color: #666666;
     font-size: 0.9em;
     line-height: 15px;
-     margin: 16px 38px 0;
-    padding: 0 0 10px
-}
-.sub-menu .sub-cat h3:first-child {
-    margin-top: 0;
-}
-.sub-menu .sub-cat .sub-cat-h3 {
-    margin-top: -20px;
-    padding-top: 13%;
-}
+  }
 .sub-menu .sub-cat .remove-right-border {
     border-right: 1px solid #fff;
     margin: 0 !important;
@@ -377,15 +234,16 @@ a:hover{
     list-style: outside none none;
 }
 .sub-menu .sub-cat ul li {
-  //display:block;
-  color:#000 !important;
-    line-height: 21px;
-    text-align:left;
+  float: none !important;
+ color:#000 !important;
+    line-height: 10px;
+
 }
 .sub-menu .sub-cat ul li a {
     font-family: "TradeGothicW01-BoldCn20 675334";
     font-weight:bold;
     font-size:10px;
+    text-align: left;
 }
 a {
    // color: #000;
@@ -395,22 +253,8 @@ a {
     color: #c21e2d;
     text-decoration: none;
 }
-.sub-menu .sub-cat .fix-padding {
-    padding-bottom: 5%;
-}
-.show-sub-menu {
-    display: block;
-}
-.fix-height {
-    height: 220px;
-}
-.prod-list h2 {
-    color: #232323;
-    font-size: 1.4em;
-    margin: 0 0 10px;
-    padding-top: 20px;
-    text-align: center;
-}
+
+
 .prod-list .list-type-02 {
     margin: 0 auto;
     text-align: center;
@@ -623,6 +467,18 @@ img {
     // color: #c51230;
 // }
 // css for up down menu 
+.row-fluid::after {
+    clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid {
+    width: 100%;
+}
+
 .tab {
     background-color: #e3e2e2;
     border-radius: 6px 6px 0 0;
@@ -784,28 +640,11 @@ a.link-button.underlined {
     padding: 5px;
 }
 // css for for wrapper
- .row-fluid [class*="span"]:first-child {
+
+ .row-fluid [class*="span"]:first-child { //row-fluid property for responcive
      margin-left: 0;
- }
- .row-fluid [class*="span"]:first-child {
-     margin-left: 0;
- }
- .row-fluid [class*="span"] {
-     margin-left: 2%;
- }
- .row-fluid .span12 {
-     width: 100%;
  }
  
- .row, .clearfix {
- }
- .clearfix {
- }
- .clearfix {
- }
- .bg-white {
-    background-color: #fff;
- }
  .gap-10 {
      height: 10px;
  }
@@ -981,145 +820,145 @@ h3 {
     position: absolute;
     width: 50%;
 }
-p {
-    padding: 0;
-}
-p {
+ p {
+     padding: 0;
+ }
+ p {
     margin: 0 0 10px;
 }
-p {
-    padding: 10px 0;
-}
+ p {
+     padding: 10px 0;
+ }
 
-// css gor shop men button
-
-
-#slider-a-1 .carousel-slides .lb-details-wrap-left-half a.first-button {
-    margin-right: 17.5px;
-}
-a.button {
-    display: inline-block;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    font-size: 12px;
-    overflow: hidden;
-    padding: 5px;
-    vertical-align: middle;
-    color:#fff!important
-}
- // #btn-large{
-//    
-  // a:hover{
-   // background-color: grey!important;
-// }
-// }
-   
-  
-    
-a.button {
-    vertical-align: middle;
-}
-a:link {
-}
-.button {
-    border: medium none !important;
-    letter-spacing: 0.5px;
-}
-.button, .button-large {
-    display: inline-block;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    vertical-align: middle;
-}
-.button, .button-large {
-    display: inline-block;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    vertical-align: middle;
-}
-.red-shop-button {
-    background: none repeat scroll 0 0 #c51230;
-    color: #fff;
-    padding: 5px;
-}
+ css gor shop men button
 
 
- #a1:hover{
-      background-color: #800000!important;
-  }
+ #slider-a-1 .carousel-slides .lb-details-wrap-left-half a.first-button {
+     margin-right: 17.5px;
+ }
+ a.button {
+     display: inline-block;
+     font-family: "TradeGothicW01-BoldCn20 675334";
+     font-size: 11px;
+     overflow: hidden;
+     padding: 5px;
+     vertical-align: middle;
+     color:#fff!important
+ }
  
-
+ #btn-large{
+    
+   a:hover{
+   background-color: grey!important;
+ }
+ }
+    
+   
+     
+ a.button {
+     vertical-align: middle;
+ }
+ a:link {
+}
+ .button {
+     border: medium none !important;
+     letter-spacing: 0.5px;
+ }
+ .button, .button-large {
+     display: inline-block;
+     font-family: "TradeGothicW01-BoldCn20 675334";
+     vertical-align: middle;
+ }
+ .button, .button-large {
+     display: inline-block;
+     font-family: "TradeGothicW01-BoldCn20 675334";
+     vertical-align: middle;
+ }
+ .red-shop-button {
+    background: none repeat scroll 0 0 #c51230;
+     color: #fff;
+     padding: 5px;
+ }
+ 
+ 
+  #a1:hover{
+       background-color: #800000!important;
+   }
+ 
+ 
 a {
-    color: #232323;
-}
+     color: #232323;
+ }
+ 
+ a {
+     text-decoration: none;
+     a:hover{
+       background-color: grey!important;
+     }
+ }
+ 
+ .button p, .button-large p {
+     font-size-adjust: none;
+     line-height: 100%;
+ }
+ .button p, .button-large p {
+     font-size-adjust: none;
+     line-height: 100%;
+ }
+ .button-large p {
+     border: 1px solid #edb8c1;
+     display: inline-block;
+     font-size: inherit;
+     line-height: 100%;
+     margin: 0;
+     padding: 9px 12px;
+     vertical-align: middle;
+ }
+ .button p {
+     border: 1px solid #edb8c1;
+     display: inline-block;
+     font-size: inherit;
+     line-height: 100%;
+     margin: 0;
+     padding: 6px 2px;
+     vertical-align: middle;
+ }
+ p {
+     padding: 0;
+ }
+ p {
+     margin: 0 0 10px;
+ }
+ p {
+     padding: 10px 0;
+ }
 
-a {
-    color: #00adee;
-    text-decoration: none;
-    a:hover{
-      background-color: grey!important;
-    }
-}
 
-.button p, .button-large p {
-    font-size-adjust: none;
-    line-height: 100%;
-}
-.button p, .button-large p {
-    font-size-adjust: none;
-    line-height: 100%;
-}
-.button-large p {
-    border: 1px solid #edb8c1;
-    display: inline-block;
-    font-size: inherit;
-    line-height: 100%;
-    margin: 0;
-    padding: 9px 12px;
-    vertical-align: middle;
-}
-.button p {
-    border: 1px solid #edb8c1;
-    display: inline-block;
-    font-size: inherit;
-    line-height: 100%;
-    margin: 0;
-    padding: 6px 12px;
-    vertical-align: middle;
-}
-p {
-    padding: 0;
-}
-p {
-    margin: 0 0 10px;
-}
-p {
-    padding: 10px 0;
-}
-
-
-.button span {
-    height: 16px;
-    width: 16px;
-}
+ .button span {
+     height: 16px;
+     width: 16px;
+ }
 .button span, .button-large span {
-    background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
-    display: inline-block;
-    margin-left: -5px!important;
-    margin-top: -3px!important;
-    text-align: left;
-    text-indent: -9999px;
-    vertical-align: top;
-}
-.button span, .button-large span {
-    background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 0;
-    text-align: left;
-    text-indent: -9999px;
-    vertical-align: top;
-}
-.red-shop-button span {
-    background-position: -21px -1px !important;
-}
+     background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+     display: inline-block;
+     margin-left: 2px;
+     margin-top: 0px;
+     text-align: left;
+     text-indent: -9999px;
+     vertical-align: top;
+ }
+ .button span, .button-large span {
+     background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+     display: inline-block;
+     margin-left: 5px;
+     margin-top: 0;
+     text-align: left;
+     text-indent: -9999px;
+     vertical-align: top;
+ }
+ .red-shop-button span {
+     background-position: -21px -1px !important;
+ }
 //css for  for 
 #slider-a-1 .carousel-controller {
     float: right;
@@ -1131,7 +970,8 @@ p {
 }
 
 #slider-a-1 .carousel-controller .middle ul {
-    display: -moz-groupbox;
+    display: -moz-groupbox !important;
+    display: block;
 }
 #slider-a-1 .carousel-controller .middle ul {
     list-style: outside none none;
@@ -1168,7 +1008,7 @@ ul, ol {
     border-style: solid;
     border-width: 19px 0;
     content: " ";
-    height: 0;
+   
     pointer-events: none;
     position: absolute;
     right: 100%;
@@ -1199,67 +1039,410 @@ li {
 }
 
 
+// code for more link
+
+element.style {
+    display: block;
+}
+.Link-more {
+    background-color: #e3e2e2;
+    bottom: 20%;
+    box-shadow: 2px 2px 2px #444;
+    color: #000000;
+    cursor: pointer;
+    font: 16px "TradeGothicW01-BoldCn20 675334";
+    height: 32px;
+    margin: 0;
+    padding-left: 3px;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1000;
+}
+div p.link-more-p {
+    margin-left: 9px;
+    margin-top: 1px;
+    padding-top: 5px;
+}
+.link-arrow {
+    background: url("/assets/cta-arrows.png") no-repeat scroll -100px -23px transparent;
+    display: inline-block;
+    height: 19px;
+    margin-left: 1px;
+    vertical-align: middle;
+    width: 19px;
+}
 
 
-// .clearfix::before, .clearfix::after, .row::before, .row::after {
-    // content: " 0020";
-    // display: block;
-    // height: 0;
-    // overflow: hidden;
-    // visibility: hidden;
-    // width: 0;
+
+
+
+.lb_delivery{
+   height: 170px !important;
+}
+
+.lb_delivery_Container{
+  margin: 0 12% !important;
+  display: table;
+    margin: 0 auto;
+    position: relative
+}
+
+.lb_delivery_container_text{
+  margin-top: -32%;
+  display: block;
+  position: relative; float: left; 
+  width: 100%; 
+  height: 70px; 
+  margin-right: -1px;
+    
+}
+// h2.lb_delivery_text{
+  // color:#fff !important;
+  // font-size: 44px;
+  // display: inline-block;
+    // font-family: "TradeGothicW01-BoldCn20 675334";
+    // //font-size: 35.2px;
+    // font-weight: normal;
+    // vertical-align: middle;
 // }
-// .clearfix::before, .clearfix::after {
-    // content: "";
-    // display: table;
-    // line-height: 0;
+#lb_delivery_sub_text{
+  color: #ffffff;
+    line-height: 100%;
+    margin-bottom: -4px;
+     margin-top: 2%;
+    // width:auto !important;
+}
+
+.lb_delivery_wrap {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+}
+
+
+a.lb_delivery_btn {
+    vertical-align: middle;
+}
+a.lb_delivery_btn {
+    background-color: #fff;
+    color: #000 !important;
+    display: inline-block;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 12px;
+    overflow: hidden;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+
+.button {
+    border: medium none !important;
+    letter-spacing: 0.5px;
+}
+
+.lb_delivery_btn {
+    background: none repeat scroll 0 0 #fff;
+    color: #232323;
+    
+}
+
+
+
+
+
+.lb_delivery_btn_wrap {
+    display: block;
+    margin-top: 4px;
+     display: inline-block;
+    margin-left: 20px;
+}
+.lb_delivery_button {
+ text-align: center;
+margin: auto;
+    display: inline-block;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 13px;
+    overflow: hidden;
+    padding: 5px;
+    vertical-align: middle;
+    background: none repeat scroll 0 0 #fff;
+    color: #232323;
+    padding: 5px;
+    margin-top: 7px;
+   //  height: 39px!important;
+   line-height:-moz-block-height;
+}
+.lb_delivery_button p{
+  border:1px solid #000;
+}
+
+.lb_delivery_button:hover p{
+  border:1px solid #ebd8c1 !important;
+  color:#fff !important;
+  
+}
+.lb_delivery_button:hover{
+  background:none repeat scroll 0 0 #c51230;
+  }
+
+ .lb_delivery_button span {
+     background-position: -21px -23px !important;
+      height: 16px;
+    width: 16px;
+ }
+// .button span {
+    // height: 16px;
+    // width: 16px;
 // }
-// .clearfix::before, .clearfix::after {
-    // content: "";
-    // display: table;
-    // line-height: 0;
+.lb_delivery_button span {
+    background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin-left: 3px; 
+    margin-right: 4px;
+    margin-top: 7px;
+    text-align: left;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+// .lb_delivery_button:hover p {
+   // background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+   // position:0 0  transparent;
+// 
 // }
-// .clearfix::before, .clearfix::after {
-    // clear: both;
-    // content: "";
-    // display: table;
-// }
-// .row::after, .clearfix::after {
-    // clear: both;
-// }
-// .clearfix::before, .clearfix::after, .row::before, .row::after {
-    // content: " 0020";
-    // display: block;
-    // height: 0;
-    // overflow: hidden;
-    // visibility: hidden;
-    // width: 0;
-// }
-// .clearfix::after {
-    // clear: both;
-// }
-// .clearfix::before, .clearfix::after {
-    // content: "";
-    // display: table;
-    // line-height: 0;
-// }
-// .clearfix::after {
-    // clear: both;
-// }
-// .clearfix::before, .clearfix::after {
-    // content: "";
-    // display: table;
-    // line-height: 0;
-// }
-// .clearfix::before, .clearfix::after {
-    // clear: both;
-    // content: "";
-    // display: table;
-// }
+.lb_delivery_button-para{
+  height: 34px; 
+  margin-top: 1px; 
+  margin-bottom: 0px !important;
+  width:100%;
+  
+}
+
+
+//images
+.div_container3 {
+    width: 100%;
+}
+.image_container_column:first-child {
+    margin-left: 0;
+}
+.image_container_column {
+    float: left;
+    margin-left: 0.5%;
+    position: relative;
+    width: 33%;
+}
+
+.bacground_image {
+    height: 125px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.full-filled {
+    height: 100%;
+    width: 100%;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}
+.div_container3 .image_container_column .bacground_image {
+    height: auto;
+    position: relative;
+}
+.bacground_image {
+    height: 125px;
+    overflow: hidden;
+    position: absolute;
+}
+.row-fluid .overlay {
+    background: none repeat scroll 0 0 #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.div_container3 .image_container-text {
+    color: white;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 31%;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 10;
+}
+
+p {
+    padding: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+p {
+    padding: 10px 0;
+}
+a.button {
+  
+    display: inline-block;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px;
+    vertical-align: middle;
+}
+a.button {
+    vertical-align: middle;
+}
+a:link {
+}
+.button {
+    border: medium none !important;
+    letter-spacing: 0.5px;
+}
+.img_btn_p{
+  border: 1px solid white;
+   
+}
+
+.image_button {
+    background: none repeat scroll 0 0 #c51230;
+    color: #fff;
+    padding: 5px;
+}
+.image_button:hover
+{
+  background-color: #800000!important;
+  color: #fff !important;
+}
+
+.button span {
+    height: 16px;
+    width: 16px;
+}
+.button span, .button-large span {
+    background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 0;
+    text-align: left;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+.image_button span {
+    background-position: -21px -1px !important;
+}
+
+// css code for find store section
+.find_store_div {
+    height: 125px;
+}
+
+
+
+.find_store_text {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.find_store_header_text {
+    display: block;
+    margin-top: 32px;
+    color: #fff;
+}
+
+.find_store_header_text h2 {
+    display: inline-block;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    font-size: 30.2px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.find_store_button_div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.find_store_button{
+  
+  display: inline-block;
+  font-family: "TradeGothicW01-BoldCn20 675334";
+  font-size: 13px;
+  overflow: hidden;
+  padding: 5px;
+  vertical-align: middle;
+  background: none repeat scroll 0 0 #fff;
+    color: #232323;
+    padding: 5px;
+}
+.find_store_button:hover{
+  background-color: #800000!important;
+  color: #fff !important;
+  }
+
+.find_store_button p {
+    border: 1px solid #232323;
+    border: 1px solid #edb8c1;
+    display: inline-block;
+    font-size: inherit;
+    line-height: 100%;
+    margin: 0;
+    padding: 6px 2px;
+    vertical-align: middle;
+}
+
+.find_store_button span {
+   background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: -2px;
+    text-align: left;
+    text-indent: -9999px;
+    vertical-align: top;
+    height: 16px;
+    width: 16px;
+    background-position: -21px -23px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit !important;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 10px 0;
+    text-rendering: optimizelegibility;
+}
+   p {
+    padding: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+p {
+    padding: 0px 0;
+}
 
 
 // css code for footer menu
 footer{
+  border-top: 4px solid #000000;
+    padding: 10px 0;
   background: none repeat scroll 0 0 #e4e4e4;
     color: #232323;
     font-family: "TradeGothicW01-BoldCn20 675334";
@@ -1275,74 +1458,55 @@ footer{
   bottom: 0px; 
   width: 100%; 
 }
- 
- 
-footer#footer {
-    background: none repeat scroll 0 0 #e4e4e4;
-    color: #232323;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    margin-bottom: 52px;
-    min-height: 415px;
-    padding-bottom: 0;
-    padding-top: 50px;
-    text-transform: uppercase;
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    line-height: 0;
 }
-footer#footer {
-    border-top: 4px solid #000000;
-    padding: 10px 0;
+.clearfix::before, .clearfix::after, .row::before, .row::after {
+    content: " 0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
 }
-
- 
-footer#footer .footer-nav-div .footer-div .footer-text-link {
+footer .footer-nav-div .footer-div .footer-text-link {
     margin: 0 5% 8% 9.9%;
-}
-footer#footer .footer-nav-div .footer-div {
+ }
+footer .footer-nav-div .footer-div {
+   // margin: 0 5% 8% 9.9%;
     margin: 0 auto;
     width: 940px;
 }
-footer#footer .footer-nav-div .footer-div ul {
+footer .footer-nav-div .footer-div ul {
     float: left;
     height: 234px;
     list-style: outside none none;
     margin: 0 4% 8% 0;
     width: 185px;
 }
-ul, ol {
-    margin: 0;
-}
-ul, ol {
-    margin: 0 0 10px 25px;
-    padding: 0;
-}
-ol, ul {
-    list-style: outside none none;
-}
-ul, ol {
-    list-style-position: inside;
-    margin-left: 0;
-    margin-top: 0;
-    padding-left: 0;
-}
 
-
-footer#footer .footer-nav-div .footer-div .footer-social-link a {
+footer .footer-nav-div .footer-div .footer-social-link a {
     font-family: "TradeGothicW01-BoldCn20 675334" !important;
     
 }
 
-footer#footer .footer-nav-div .footer-div ul li a {
+footer .footer-nav-div .footer-div ul li a {
     color: #232323;
     font-family: "Trade Gothic W01 Cn 18";
     font-size: 0.75em;
     
 }
-
+footer .footer-nav-div .footer-div ul li {
+    font-size: 14px !important;
+}
 .social_hover{
   a:hover{
   color: #232323 !important;
 }
 }
-footer#footer a[rel="external"] {
+footer[rel="external"] {
     background: url("/assets/external-link.png") no-repeat scroll right center transparent;
     display: inline-block;
     margin-left: 1px;
@@ -1352,23 +1516,11 @@ footer#footer a[rel="external"] {
 a hover{
   color:#000 !important;
 }
-a:link {
-}
-a {
-   // color: #232323 !important;
-}
-a {
-    //color: #08c;
-    text-decoration: none;
-}
-a {
-   // color: #00adee;
-    text-decoration: none;
-}
+
 
 // css for subscribe & save
 
-footer#footer .footer-nav-div .footer-div .footer-subscribe {
+footer .footer-nav-div .footer-div .footer-subscribe {
     float: left;
 }
 
@@ -1377,54 +1529,28 @@ form {
     margin: 0 0 20px;
 }
 
-footer#footer .footer-nav-div .footer-div .footer-subscribe form p {
+footer .footer-nav-div .footer-div .footer-subscribe form p {
     font-family: "Trade Gothic W01 Cn 18";
     font-size: 10px !important;
     letter-spacing: 0;
     line-height: 1.2;
 }
-
-
-footer#footer .footer-nav-div .footer-div ul li h3, footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
+footer .footer-nav-div .footer-div ul li h3, footer .footer-nav-div .footer-div .footer-subscribe h3 {
     border-top: 2px solid #000000;
-    font-size: 16px;
+    font-size: 14px !important;
     font-weight: bold !important;
+    font-weight: normal;
     letter-spacing: 1px;
     line-height: 21px;
     margin: 0 0 28px;
     padding: 15px 0 0;
 }
-footer#footer .footer-nav-div .footer-div ul li h3 {
+
+footer .footer-nav-div .footer-div ul li h3 {
     margin: 0 0 22px !important;
 }
-h1, h2, h3, h4, h4, h5 {
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    font-weight: normal;
-}
-h3 {
-    font-size: 24.5px;
-}
-h1, h2, h3 {
-    line-height: 40px;
-}
-h1, h2, h3, h4, h5, h6 {
-    color: inherit !important;
-    font-family: inherit;
-    font-weight: bold;
-    line-height: 20px;
-    margin: 10px 0;
-    text-rendering: optimizelegibility;
-}
-h1, h2, h3, h4, h5, h6 {
-    color: #404042;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-h3 {
-    font-size: 20px;
-    line-height: 30px;
-}
+
+
 
 p.email-container {
     background-color: #fff;
@@ -1436,216 +1562,6 @@ p.email-container {
     position: relative;
     width: 170px;
 }
-p {
-    padding: 0;
-}
-p {
-    margin: 0 0 10px;
-}
-p {
-    padding: 0px 0;
-}
-
-footer#footer .footer-nav-div .footer-div ul li {
-    line-height: 24.5px;
-}
-footer#footer .footer-nav-div .footer-div ul li h3 {
-    margin: 0 0 22px !important;
-}
-footer#footer .footer-nav-div .footer-div ul li a {
-    color: #232323;
-    font-family: "Trade Gothic W01 Cn 18";
-    font-size: 0.75em;
-}
-footer#footer .footer-nav-div .footer-div ul li a span {
-    text-decoration: underline;
-}
-footer#footer .footer-nav-div .footer-div ul li a span:hover {
-    color: #c21e2d;
-}
-footer#footer .footer-nav-div .footer-div ul li a:hover {
-    text-decoration: none;
-}
-footer#footer .footer-nav-div .footer-div .footer-text-link {
-    margin: 0 5% 8% 9.9%;
-}
-footer#footer .footer-nav-div .footer-div .footer-social-link a {
-    font-family: "TradeGothicW01-BoldCn20 675334" !important;
-}
-footer#footer .footer-nav-div .footer-div .footer-social-link a span {
-    text-decoration: none;
-    text-transform: capitalize;
-    vertical-align: top;
-}
-footer#footer .footer-nav-div .footer-div .footer-social-link a span:hover {
-    color: #232323;
-    text-decoration: underline;
-}
-footer#footer .footer-nav-div .footer-div .footer-social-link a .fa-lg {
-    vertical-align: -12%;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe {
-    float: left;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe a:hover {
-    color: #c21e2d;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
-    width: 185px;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form {
-    width: 268px;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
-    background-position: 0 2px;
-}
-
-
-// *::after, *::before {
-    // box-sizing: border-box;
-// }
-// *::before, *::after {
-    // box-sizing: border-box;
-// }
-// *::after, *::before {
-    // box-sizing: border-box;
-// }
-// *::before, *::after {
-    // box-sizing: border-box;
-// }
-
-
-footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
-    margin: 2px 0 0;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
-    background-position: 0 2px;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form label {
-    font: 8px "Trade Gothic W01 Cn 18"!important ;
-    letter-spacing: 1px;
-    width: 100%;
-}
-input[type="checkbox"] + label {
-    background: url("/assets/checkbox.png") no-repeat scroll 0 4px transparent;
-    clear: none;
-    margin: 10px 0 0;
-    padding: 0 0 0 18px;
-}
-label {
-    margin-bottom: 3px;
-}
-label {
-    font-family: "TradeGothicW01-BoldCn20 675334";
-}
-label {
-    display: inline-block;
-}
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-label, input, button, select, textarea {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 20px;
-}
-label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
-    cursor: pointer;
-}
-input[type="checkbox"], label {
-    vertical-align: middle;
-}
-
-input[type="checkbox"], input[type="radio"] {
-    line-height: normal;
-    margin: 4px 0 0;
-}
-input[type="checkbox"], input[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-}
-input[type="radio"], input[type="checkbox"] {
-    line-height: normal;
-    margin: 4px 0 0;
-}
-
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-}
-button, input {
-    line-height: normal;
-}
-button, input, select, textarea {
-    font-size: 100%;
-    margin: 0;
-    vertical-align: middle;
-}
-button, input {
-    line-height: normal;
-}
-label, input, button, select, textarea {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 20px;
-}
-input, button, select, textarea {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-input, textarea, .uneditable-input {
-    width: 206px;
-}
-input, textarea, .uneditable-input {
-    margin-left: 0;
-}
-
-input, button, select, textarea {
-    font-family: "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
-}
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-input {
-    line-height: normal;
-}
-button, input, optgroup, select, textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-input, button, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-input {
-    line-height: normal;
-}
-button, input, optgroup, select, textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-* {
-    box-sizing: border-box;
-}
-* {
-    box-sizing: border-box;
-}
-
-
-
-footer#footer .footer-nav-div .footer-div .footer-subscribe form p {
-    font-family: "Trade Gothic W01 Cn 18";
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 1.2;
-}
-
 p.email-container input[type="text"] {
     border: medium none;
     font-size: 14px;
@@ -1654,100 +1570,12 @@ p.email-container input[type="text"] {
     padding: 0;
     width: 150px;
 }
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    height: 34px;
-}
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    border-color: #000;
-    border-radius: 0;
-    color: #000;
-    font-size: 16px;
-    height: 36px;
-}
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    box-shadow: none;
-}
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    background-color: #fff;
-    border: 1px solid #ccc;
-  //  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
-}
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    border-radius: 4px;
-    color: #555;
-    display: inline-block;
-    font-size: 14px;
-    height: 20px;
-    line-height: 20px;
-    margin-bottom: 10px;
-    padding: 4px 6px;
-    vertical-align: middle;
-}
-textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
-    border: 1px solid #d9d9db;
-    box-sizing: border-box;
-    font: 16px/26px "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
-    padding: 5px;
-}
-input, button, select, textarea {
-    font-family: "Trade Gothic W01 Cn 18",Helvetica,Arial,sans-serif;
-}
-input, textarea, .uneditable-input {
-    margin-left: 0;
-}
-
-input, textarea, .uneditable-input {
-    width: 206px;
-}
-input, button, select, textarea {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-label, input, button, select, textarea {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 20px;
-}
-button, input {
-    line-height: normal;
-}
-button, input, select, textarea {
-    font-size: 100%;
-    margin: 0;
-    vertical-align: middle;
-}
-button, input {
-    line-height: normal;
-}
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-}
-*::-moz-placeholder {
-    color: #a9a9a9 !important;
-}
-
-footer#footer .footer-nav-div .footer-div .footer-subscribe form .email-container {
+footer .footer-nav-div .footer-div .footer-subscribe form .email-container {
     height: 28px;
     margin-bottom: 2%;
 }
-footer#footer .footer-nav-div .footer-div .footer-subscribe form .email-container a.black-arrow-right-small {
-    margin: 6px 7px 0 0;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form label {
-    font: 10px "Trade Gothic W01 Cn 18";
-    letter-spacing: 1px;
-    width: 100%;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form label a {
-   // color: #232323;
-    text-decoration: underline;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] {
-    vertical-align: top;
-}
-footer#footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+//css for lable check box
+footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
     margin: 2px 0 0;
 }
 
@@ -1761,89 +1589,75 @@ a.black-arrow-right-small {
     top: 0;
     width: 19px;
 }
-.footer-arrow-click {
-    cursor: pointer;
+footer .footer-nav-div .footer-div ul li {
+    line-height: 24.5px;
 }
-a {
-  //  color: #232323;
+// footer .footer-nav-div .footer-div ul li h3 {
+    // margin: 0 0 22px !important;
+// }
+
+footer .footer-nav-div .footer-div ul li a span {
+    text-decoration: underline;
 }
-a {
-   // color: #08c;
-    text-decoration: none;
-}
-a {
- //   color: #00adee;
+
+footer .footer-nav-div .footer-div ul li a:hover {
     text-decoration: none;
 }
 
-footer#footer .footer-nav-div .footer-div ul li {
-    font-size: 14px !important;
+footer .footer-nav-div .footer-div .footer-social-link a span {
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
 }
-footer#footer .footer-nav-div .footer-div ul li h3, footer#footer .footer-nav-div .footer-div .footer-subscribe h3 {
-    border-top: 2px solid #000000;
-    font-size: 14px !important;
-    font-weight: normal;
+footer .footer-nav-div .footer-div .footer-social-link a span:hover {
+    color: #232323;
+    text-decoration: underline;
+}
+footer .footer-nav-div .footer-div .footer-social-link a .fa-lg {
+    vertical-align: -12%;
+}
+footer .footer-nav-div .footer-div .footer-subscribe {
+    float: left;
+}
+footer .footer-nav-div .footer-div .footer-subscribe a:hover {
+    color: #c21e2d;
+}
+footer .footer-nav-div .footer-div .footer-subscribe h3 {
+    width: 185px;
+}
+footer .footer-nav-div .footer-div .footer-subscribe form {
+    width: 268px;
+}
+footer .footer-nav-div .footer-div .footer-subscribe form input[type="checkbox"] + label {
+    background-position: 0 2px;
+}
+
+footer .footer-nav-div .footer-div .footer-subscribe form label {
+    font: 8px "Trade Gothic W01 Cn 18"!important ;
     letter-spacing: 1px;
-    line-height: 21px;
-    margin: 0 0 28px;
-    padding: 15px 0 0;
+    width: 100%;
 }
-.clearfix::before, .clearfix::after, .row::before, .row::after {
-    content: " 0020";
-    display: block;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
+input[type="checkbox"] + label {
+    background: url("/assets/checkbox.png") no-repeat scroll 0 4px transparent;
+    clear: none;
+    margin: 10px 0 0;
+    padding: 0 0 0 18px;
+    vertical-align: middle;
 }
-.clearfix::before, .clearfix::after {
-    content: "";
-    display: table;
-    line-height: 0;
+label {
+    margin-bottom: 3px;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    display: inline-block;
+    margin-bottom: 5px;
 }
-
-.clearfix::before, .clearfix::after {
-    clear: both;
-    content: "";
-    display: table;
-}
-.row::after, .clearfix::after {
-    clear: both;
-}
-.clearfix::before, .clearfix::after, .row::before, .row::after {
-    content: " 0020";
-    display: block;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-}
-.clearfix::after {
-    clear: both;
-}
-
-.clearfix::after {
-    clear: both;
-    content: " ";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-footer#footer .footer-nav-div {
-    min-height: 359px;
-}
-.row, .clearfix {
-}
-.clearfix {
-}
-.clearfix {
-}
-.clearfix {
-    clear: both;
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
 }
 
 // css for footer menu
-footer#footer .footer-menu {
+footer .footer-menu {
     border-top: 1px dotted #000000;
     font-size: 9px;
     height: 25px;
@@ -1852,8 +1666,9 @@ footer#footer .footer-menu {
     padding: 3% 0 4% 2.3%;
     text-align: center;
     width: 866px;
+   // color:#fff !important;
 }
-footer#footer .footer-menu li {
+footer .footer-menu li {
     display: inline-block;
     line-height: 1.5em;
     margin: 0 31px 0 0;
@@ -1861,20 +1676,15 @@ footer#footer .footer-menu li {
     padding: 0;
     vertical-align: top;
     width: auto;
+    
 }
 
-footer#footer .footer-menu li a:hover {
+footer .footer-menu li a:hover {
     text-decoration: underline;
     color:#000 !important;
 }
-footer#footer .copyright {
-    font-size: 12px;
-    line-height: 17px;
-    padding-bottom: 38px;
-    padding-top: 38px;
-    text-align: center;
-}
-footer#footer .footer-nav-div .footer-div ul li {
+
+footer .footer-nav-div .footer-div ul li {
     font-size: 16px;
 }
 //css for secure icon
@@ -1886,7 +1696,7 @@ footer#footer .footer-nav-div .footer-div ul li {
     width: 10px;
 }
 //css for copyrigth
-footer#footer .copyright {
+footer .copyright {
     font-size: 10px;
     line-height: 17px;
     padding-bottom: 38px;
