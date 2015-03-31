@@ -1,38 +1,189 @@
 
 <!DOCTYPE >
-<head data-hook="inside_head"></head>
-<meta charset="utf-8">
- 
-<body id="default" class="one-col" data-hook="body" style="position: relative">
- 
-  	<header id="fixedheader" class="row-fluid" data-hook="">
-    
-	  <div> 
+<head></head>
+<body id="default" style="position: relative">
+  <header id="fixedheader" class="row-fluid">
+     <div> 
 	     <nav id="top-nav-bar">
 	       	<ul id="nav-bar"></ul>
 	      </nav>
-	     </div>	
+	 </div>	
      <nav class="row-fluid">
 	     <figure id="logo" class="levi-logo" data-hook=""> 
 	        <a class="ie8-logo" href="/en">
                <img src="/assets/levis-subnav-logo.png" alt="Levis-subnav-logo">
-             </a>
+              </a>
            </figure>
-     
+     <!-- code formenu -->
             <ul class="myMenu" >
-     	       <li id="men"><a href="#" class="mensection">Men</a><li>
+     	       <li id="men"><a href="#" class="mensection">Men</a>
+     	        <!-- submenu  for men-->
+	               <div id="sub-menu-2" class="sub-menu "> 
+                      
+                         <div class="sub-cat">
+                          <h3> Clothing  </h3>
+                           <ul style="">    
+                             <li><a href="#">Jeans</a</li>
+                             <li><a href="#">Trousers</a></li>
+                              <li><a href="#">Shirts</a></li>
+                              <li><a href="#">T-SHIRTS &amp; POLOS</a></li>
+                              <li><a href="#">Jackets</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Accessories</a></li>
+                              <li><a href="#">Shop All</a></li>
+                             </ul> 
+                         </div> 
+                         <hr style="height: 225px;">
+                         <div class="sub-cat">
+                            <h3> Jeans By Fit </h3>
+                            <ul>
+                              <li><a href="#">Skinny</a></li>
+                              <li><a href="#">Straight</a></li>
+                              <li><a href="#">Slim</a></li>
+                              <li><a href="#">Taper</a></li>
+                            </ul>
+
+                             <h3> Popular Styles </h3>
+                             <ul style="">
+                            <li><a href="#">501&reg; ORIGINAL</a></li>
+                            <li><a href="#">505&trade; STRAIGHT</a></li>
+                            <li><a href="#">510&trade; SKINNY</a></li>
+                            <li><a href="#">511&trade; SLIM FIT</a></li>
+                          </ul>
+                        </div>
+                        
+                         <hr style="height: 225px;">
+                         <div class="sub-cat">
+                           <h3> COLLECTIONS </h3>
+                            <ul>
+                              <li><a href="#">COMMUTER</a></li>
+                              <li><a href="#">501&reg; CT</a></li>
+                              <li><a href="#">501&reg; Innovators</a></li>
+                               <li><a href="#">LEVI'S&reg; VINTAGE CLOTHING</a></li>
+                                <li><a href="#">LEVI'S&reg; MADE &amp; CRAFTED&trade;</a></li>
+                                <div id="pages-in-sub-menu"></div>
+                                <li><a href="#">Shop All</a></li>
+                             </ul>
+                         </div>
+                     </li>
    
-               <li id="women"><a href="#">Women</a></li>
-        
-               <li id="accessories"><a href="#">Accessories</a></li>
-         
-                <li id="501"><a href="#">501®</a></li>
-         
-                <li id="madeandcrafted"><a href="#" style="width: auto">Levi's® Made & Crafted™</a></li>
-         
-                <li><a href="#">Commputer</a></li>
-                <li><a href="#">501® CT</a></li>
+              <li id="women"><a href="#">Women</a>
+                <!-- Load women sub menu-->
+               <div id="sub-menu-3" class="sub-menu" > 
+              
+               <div class="sub-cat">
+               <h3> Clothing  </h3>
+               <ul>    
+                  <li><a href="#">Jeans</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Skirts &amp; Dresses</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Shop All</a></li>
+                </ul>
+               </div>
+
+              <hr style="height: 225px;">
+              <div class="sub-cat">
+              <h3> Jeans By Fit </h3>
+               <ul>
+               <li><a href="#">Straight</a></li>
+               <li><a href="#">Skinny</a></li>
+               <li><a href="#">Boyfriend</a></li>
+               <li><a href="#">Leggings</a></li>
+               </ul>
+ 
+                <h3> Curve ID </h3>
+                <ul>
+                 <li><a href="#">Demi</a></li>
+                 <li><a href="#">Bold</a></li>
+                 <li><a href="#">Slight</a></li>
+                 <li><a href="#">Discover Your Curve</a> </li>
+               </ul>
+              </div>
+                <hr style="height: 225px;">
+                <div class="sub-cat">
+                  <h3> COLLECTIONS </h3>
+                  <ul style="">
+                  <li><a href="#">501&reg; CT</a></li>
+                  <li><a href="#">Revel&trade; </a></li>
+                  <li><a href="#">Coolmax</a></li>
+                  <li><a href="#"> Waste < Less™ </a></li>
+                 <div id="pages-in-sub-menu"></div>
+                 <li><a href="#">Shop All</a>
+                </li>
+               </ul>
+              </div>
+           </div>
+          </li> 
+        <li id="accessories"><a href="#">Accessories</a>
+          <div id="sub-menu-4" class="sub-menu"> 
+	       <!-- Load Accessories Submenus -->
+           
+             <div class="sub-cat">
+             <h3> Accessories </h3>
+              <ul style="">
+                <li><a href="#">Shop All Men</a></li>
+                <li><a href="#">Shop All Women</a></li>
+                <li><a href="#">Shop All</a></li>
               </ul>
+             </div>
+    
+               <hr style="height: 142px;">  
+               <div class="sub-cat">
+               <h3> Men  </h3>
+                <ul style="">    
+                  <li><a href="#">Belts</a></li>
+                  <li><a href="#">Bags</a></li>
+                  <li><a href="#">Wallets &amp; Small Leather Goods</a></li>
+                  <li><a href="#"</a></li>
+                  <li><a href="#">Underwear</a></li>
+                  <li><a href="#">Shop All</a></li>
+                </ul>
+               </div>
+               <hr style="height: 142px;">  
+                <div class="sub-cat">
+                  <h3> Women  </h3>
+                   <ul style="">    
+                    <li><a href="#">Wallets &amp; Small Leather Goods</a></li>
+                    <li><a href="#">Shop All</a></li>
+                   </ul>
+                  </div>
+               </div>
+           </li>
+           
+            <li id="501"><a href="#">501®</a>
+             <!-- submenu for501 -->
+              <div id="sub-menu-5" class="sub-menu" style="width: 45% !important">  
+               
+                 <div class="sub-cat">    
+                   <ul>    
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Shop 501</a></li>         
+                     </ul>    
+                   </div>    
+                </div>
+            </li>
+         
+            <li id="madeandcrafted"><a href="#">Levi's® Made & Crafted™</a>
+  	           <!-- submenu madeandcrafted-->
+                <div id="sub-menu-6" class="sub-menu" style="width: 45% !important"> 
+                  
+                     <div class="sub-cat">
+                         <h3>Men</h3> 
+                         <ul>    
+              	          <li><a href="#">Shirts</a></li>
+                          <li><a href="#">T-SHIRTS &amp; POLOS</a></li>
+                          <li><a href="#">FIT GUIDE</a></li>
+                          <li><a href="#">Shop All</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+           <li><a href="#">Commputer</a></li>
+           <li><a href="#">501® CT</a></li>
+           </ul>
        <!-- code for search box-->
          <div id="search-bar">
               <form method="get" action="/en/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input type="hidden" value="✓" name="utf8"></div>
@@ -42,170 +193,7 @@
            </div>
       </nav>
       
-	 <!-- submenu  for men-->
-	 
-	  <div id="sub-menu-2" class="sub-menu" style=""> 
-          <hr style="height: 225px;">  
-          <div class="sub-cat">
-           <h3> Clothing  </h3>
-           <ul style="">    
-               <li><a href="#">Jeans</a</li>
-               <li><a href="#">Trousers</a></li>
-               <li><a href="#">Shirts</a></li>
-               <li><a href="#">T-SHIRTS &amp; POLOS</a></li>
-               <li><a href="#">Jackets</a></li>
-               <li><a href="#">Shorts</a></li>
-               <li><a href="#">Accessories</a></li>
-               <li><a href="#">Shop All</a></li>
-             </ul> 
-            </div> 
-            <hr style="height: 225px;">
-            <div class="sub-cat">
-               <h3> Jeans By Fit </h3>
-               <ul style="">
-                 <li><a href="#">Skinny</a></li>
-                 <li><a href="#">Straight</a></li>
-                 <li><a href="#">Slim</a></li>
-                 <li><a href="#">Taper</a></li>
-                </ul>
-
-                 <h3> Popular Styles </h3>
-                <ul style="">
-                  <li><a href="#">501&reg; ORIGINAL</a></li>
-                  <li><a href="#">505&trade; STRAIGHT</a></li>
-                  <li><a href="#">510&trade; SKINNY</a></li>
-                  <li><a href="#">511&trade; SLIM FIT</a></li>
-                 </ul>
-
-             </div>
-               <h3> COLLECTIONS </h3>
-                <ul style="">
-                    <li><a href="#">COMMUTER</a></li>
-                    <li><a href="#">501&reg; CT</a></li>
-                     <li><a href="#">501&reg; Innovators</a></li>
-                     <li><a href="#">LEVI'S&reg; VINTAGE CLOTHING</a></li>
-                     <li><a href="#">LEVI'S&reg; MADE &amp; CRAFTED&trade;</a></li>
-                     <div id="pages-in-sub-menu"></div>
-                     <li><a href="#">Shop All</a></li>
-                 </ul>
-          </div>
-      
-    <!-- Load Men Women Submenus End-->
-    
-    <!-- Load women sub menu-->
-    
-    <div id="sub-menu-3" class="sub-menu" style=""> 
-    <hr style="height: 225px;">  
-      <div class="sub-cat">
-        <h3> Clothing  </h3>
-        <ul style="">    
-            <li><a href="#">Jeans</a></li>
-            <li><a href="#">Tops</a></li>
-            <li><a href="#">Skirts &amp; Dresses</a></li>
-            <li><a href="#">Shorts</a></li>
-            <li><a href="#">Jackets</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Shop All</a></li>
-        </ul>
-      </div>
-
- <hr style="height: 225px;">
-      <div class="sub-cat">
-        <h3> Jeans By Fit </h3>
-        <ul style="">
-            <li><a href="#">Straight</a></li>
-            <li><a href="#">Skinny</a></li>
-            <li><a href="#">Boyfriend</a></li>
-            <li><a href="#">Leggings</a></li>
-        </ul>
-
-          <h3> Curve ID </h3>
-          <ul style="">
-              <li><a href="#">Demi</a></li>
-              <li><a href="#">Bold</a></li>
-              <li><a href="#">Slight</a></li>
-            <li><a href="#">Discover Your Curve</a> </li>
-          </ul>
-          </div>
-      <hr style="height: 225px;">
-      <div class="sub-cat">
-        <h3> COLLECTIONS </h3>
-        <ul style="">
-              <li><a href="#">501&reg; CT</a></li>
-              <li><a href="#">Revel&trade; </a></li>
-              <li><a href="#">Coolmax</a></li>
-              <li><a href="#"> Waste < Less™ </a></li>
-          <div id="pages-in-sub-menu">
-          </div>
-          <li><a href="#">Shop All</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-<!-- submenu for accessories -->
-
-<div id="sub-menu-4" class="sub-menu" style=""> 
-
-    <!-- Load Accessories Submenus -->
-    
-      <hr style="height: 142px;">  
-      <div class="sub-cat">
-        <h3> Accessories </h3>
-        <ul style="">
-            <li><a href="#">Shop All Men</a></li>
-            <li><a href="#">Shop All Women</a></li>
-            <li><a href="#">Shop All</a></li>
-        </ul>
-      </div>
-    
-      <hr style="height: 142px;">  
-      <div class="sub-cat">
-        <h3> Men  </h3>
-        <ul style="">    
-            <li><a href="#">Belts</a></li>
-            <li><a href="#">Bags</a></li>
-            <li><a href="#">Wallets &amp; Small Leather Goods</a></li>
-            <li><a href="#"</a></li>
-            <li><a href="#">Underwear</a></li>
-            <li><a href="#">Shop All</a></li>
-        </ul>
-      </div>
-      <hr style="height: 142px;">  
-      <div class="sub-cat">
-        <h3> Women  </h3>
-        <ul style="">    
-            <li><a href="#">Wallets &amp; Small Leather Goods</a></li>
-            <li><a href="#">Shop All</a></li>
-        </ul>
-      </div>
-</div>
-   
-    <!-- submenu for501 -->
-    <div style="height: 64px;" id="sub-menu-5" class="sub-menu">  
-  <hr style="height: 35px;">    
-  <div class="sub-cat">    
-    <ul style="margin-top:5%;" class="remove-right-border">    
-      <li><a href="#">Learn more</a></li>
-      <li>
-        <a href="#">Shop 501</a>
-      </li>         
-    </ul>    
-  </div>    
-</div>
-<!-- submenu madeandcrafted-->
-  <div id="sub-menu-6" class="sub-menu" style=""> 
-        <hr style="height: 100px;">  
-        <div class="sub-cat">
-          <h3>Men</h3> 
-              <ul style="">    
-              	  <li><a href="#">Shirts</a></li>
-                  <li><a href="#">T-SHIRTS &amp; POLOS</a></li>
-                  <li><a href="#">FIT GUIDE</a></li>
-                   <li><a href="#">Shop All</a></li>
-              </ul>
-        </div>
-</div>
-       <!-- main-div-udoun row-fluid -->
+      <!-- main-div-udoun row-fluid -->
        <div class="main-div-updown row-fluid">
 <div class="tab">  
   <div class="deal-nav-box">	
@@ -313,47 +301,129 @@
 </div>
 
 <div class="clearfix gap-10 bg-white"></div>
+<!-- more button -->
+<div style="display: block;" class="Link-more">
+    <p class="link-more-p">
+        More
+        <span class="link-arrow">
+        	 <a href="#" class="scrolldown">Scroll</a>
+        </span>
+    </p>
+</div>
+</div>
+</div>
+</div>
+<!-- image module -->
+<div class="lb_delivery">
+    <div class="">
+        <img src="/assets/LB-Delivery.jpg">
+    </div>   
+
+    <div class="lb_delivery_Container">
+    <div class="lb_delivery_container_text">
+      <h1 style="color: #fff !important">FREE DELIVERY</h1> 
+      <p id="lb_delivery_sub_text" style="font-size: 12px!important">SHOP NOW AND ENJOY FREE DELIVERY.TERMS &amp;CONDITIONS APPLY.</p>
+                    
+     <div class="lb_delivery_btn_wrap ">
+     	 <a href="#" target="" class="lb_delivery_button"  >
+     	 	<p class="lb_delivery_button-para">See Details<span>&amp;</span></p>
+     	 	</a>   
+               </div>
+               </div>
+              </div>
+             </div>
+              
+
+ <div class="div_container3">
+     <div class="image_container_column">
+     <div class="bacground_image">
+       <img src="/assets/TILE-1---511-SLIM-FIT-JEANS.jpg" class="full-filled" alt="Tile-1---511-slim-fit-jeans">
+     </div>
+          <div class="overlay"></div>
+              <div class="image_container-text text-color-white">
+                  <h2>511<sup style="font-size: 27%; top: -2.0em;">&trade; </sup>  SLIM FIT JEANS</h2>
+                     <p>THE PERFECT BALANCE BETWEEN SKINNY AND <br> STRAIGHT. A MODERN CLASSIC FOR EVERY MAN.</p>
+                       <a href="#" target="" class="button image_button"><p class="img_btn_p">SHOP MEN<span>&amp;</span></p></a>	
+		            </div> 
+               </div>     
+
+       
+
+
+           <div class="image_container_column">
+           
+                <div class="bacground_image">
+                   <img src="/assets/TILE-2---Mens-Shirts.jpg" class="full-filled" alt="Tile-2---mens-shirts">
+                </div>
+                
+                <div class="overlay"></div>
+
+                <div class="image_container-text text-color-white">
+                        <h2>MENS SHIRTS</h2>
+                        <p >CLASSIC LOOKS, GREAT FITS. <br> SMART SHIRTS FOR ANY OCCASION.</p>
+                        <a href="#" target="" class="button image_button"><p class="img_btn_p">SHOP MEN<span>&amp;</span></p></a>	
+		</div> 
+               
+     </div>
+
+       
+
+
+           <div class="image_container_column">
+           
+                <div class="bacground_image">
+                   <img src="/assets/TILE-2---Accessories.jpg" class="full-filled" alt="Tile-2---accessories">
+                </div>
+                
+                <div class="overlay"></div>
+
+                <div class="image_container-text text-color-white">
+                        <h2>ACCESSORIES</h2>
+                        <p>DETAILS MAKE AN OUTFIT POP. COMPLETE YOUR <br>LEVI'S<sup>&reg;</sup>  LOOK WITH STYLISH ACCESSORIES.</p>
+                        <a href="#" target="" class="button image_button"><p class="img_btn_p">SHOP NOW<span>&amp;</span></p></a>	
+		</div> 
+               
+     </div>
+
+       
+
+</div>
+      	
+      <div class="clearfix gap-10 bg-white"></div>
+
+<div class="find_store_div">
+	<div style="width:100%;" class="bacground_image">        
+        <img src="https://s3-ap-southeast-1.amazonaws.com/levimyprod/homepage_c_module_images/8/main/D-Module-Store-170.jpg" class="full-filled" alt="D-module-store-170">
+    </div>   
+
+    <div class="find_store_text">
+    <div class="find_store_header_text">
+            <h2>FIND A Levi's&reg; STORE NEAR YOU&nbsp;</h2>
+                    <div class="find_store_button_div ">
+                       <a href="#" target="" class="find_store_button "><p>Find a Store<span>&amp;</span></p></a>   
+                    </div>          
+    </div>
+    </div>
+
 </div>
 
-</div>
-</div>
-
-
-
-
-
-
-
-
-		
 <!-- code for footer -->
-  <footer id="footer" class="sixteen" data-hook="">
+ <div class="clearfix gap-10 bg-white"></div>
+ <footer class="footer">
 	<div class="footer-nav-div sixteen clearfix" style="margin-top: 43px;">
-		 <div data-hook="" class="footer-div">
+		 <div class="footer-div">
 <!-- code for find help-->		 	
 		 	<ul class="footer-text-link">
-				<li><h3>Find Help</h3></li>		
-				<li>
-					<a href="#"><span>Customer Service</span></a>
-				</li>											
-				<li>
-					<a href="#"><span>Return Policy</span></a>
-				</li>													
-				<li>
-					<a href="#"><span>Shipping</span></a>
-				</li>												
-				<li>
-					<a href="#"><span>Payment</span></a>
-				</li>			
-				<li>
-					<a href="#"><span>Track an Order</span></a>
-				</li>																											
+			   <li><h3>Find Help</h3></li>		
+				<li><a href="#"><span>Customer Service</span></a></li>											
+				<li><a href="#"><span>Return Policy</span></a></li>													
+				<li><a href="#"><span>Shipping</span></a></li>												
+				<li><a href="#"><span>Payment</span></a></li>			
+				<li><a href="#"><span>Track an Order</span></a></li>																											
 				<li style="font-size: 10px !important;font-weight: bold !important; letter-spacing: 0.2px; line-height: 15px;   margin-top: 6px;">
-			    <!-- <span style='background: url("/assets/phone.png") no-repeat; display: inline-block; height: 12px;width: 12px;'></span> 
-					<span> -->
-						For Online Store Enquiry<br>
+			           For Online Store Enquiry<br>
 						Call Us:&nbsp;&nbsp;1800-81-6191
-					</span>
+				
 				</li>
 			</ul>
 <!-- code for social-link -->			
@@ -446,6 +516,7 @@
   </section>	
 		
 </footer> 
-	
+
+
 </body>
 </html>

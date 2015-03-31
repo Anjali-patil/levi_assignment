@@ -83,7 +83,22 @@
                  $('.carousel-slides li:nth-child('+ index +')').show();
 
             });
-            // script for updownmenu
+            // script for updownme
+             $(window).scroll(function () {
+        if ($(this).scrollBottom() > 100) {
+            $('.scrolldown').fadeIn();
+        } else {
+            $('.scrolldown').fadeOut();
+        }
+    });
+
+    $('.scrolldown').click(function () {
+        $("html, body").animate({
+            scrollBottom: 0
+        }, 600);
+        return false;
+    });
+
             
          
   });
