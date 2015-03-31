@@ -61,12 +61,6 @@ width:100%;
 //padding:20px;
 }
 
-// article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    // display: block;
-// }
-// article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
-    // display: block;
-// }
 
 // css for main menu
 .menuHeding{
@@ -254,157 +248,6 @@ a {
     text-decoration: none;
 }
 
-
-.prod-list .list-type-02 {
-    margin: 0 auto;
-    text-align: center;
-    //width: 1000px;
-}
-.prod-list .list-type-02 li {
-    display: inline-table;
-    height: 70px;
-    margin-bottom: 0;
-    margin-left: 2.4% !important;
-    margin-right: 0;
-    margin-top: 0;
-    max-width: 86px;
-    min-width: 70px;
-    padding: 0;
-    text-transform: uppercase;
-    width: 70px;
-}
-.prod-list .list-type-02 li a img {
-    border: 1px dotted #000000;
-    height: 70px;
-    width: 69px;
-}
-.prod-list .list-type-02 li a:hover img {
-    border: 1px solid #000;
-}
-.prod-list .list-type-02 li p {
-    color: #232323;
-    cursor: default;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    font-size: 0.875em;
-    left: 2px;
-    letter-spacing: 0.5px;
-    margin: 0;
-    padding-top: 8px;
-    position: relative;
-    width: 73px;
-    word-wrap: break-word;
-}
-.prod-list .fifths {
-    padding: 0.75% 0;
-}
-img {
-    border: 0 none;
-    vertical-align: middle;
-}
-.g1-shop-category ul {
-    display: table;
-    list-style: outside none none;
-    margin: 0 auto;
-    max-height: 610px;
-    max-width: 1000px;
-}
-.g1-shop-category ul li {
-    display: inline-block;
-    margin: 15px 8px;
-    position: relative;
-    vertical-align: middle;
-    width: 200px;
-}
-.g1-shop-category ul li .overlay {
-    background-color: #000000;
-    bottom: 0;
-    height: 44px;
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-    top: 80%;
-    transition: opacity 0.25s linear 0s;
-    width: 200px;
-    z-index: 5;
-}
-.g1-shop-category ul li h4 {
-    bottom: 0;
-    color: #ffffff;
-    font-size: 1em;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 10;
-}
-.g1-shop-category ul li img {
-    display: block;
-    height: 200px;
-    width: 200px;
-}
-.g1-shop-category ul li:hover .overlay {
-    opacity: 0.8;
-}
-.g-shop-by li {
-    background: none repeat scroll 0 0 #cccccc;
-    border: 1px solid #969898;
-    display: inline-block;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    height: 70px;
-    margin: 10px 24px;
-    position: relative;
-    vertical-align: middle;
-    width: 70px;
-}
-.g-shop-by li a {
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-.g-shop-by li a p {
-    color: #ffffff;
-    font-size: 1.7em;
-    margin: 0;
-    padding-top: 35%;
-    text-align: center;
-}
-.g-shop-by li a p sup {
-    font-size: 18px !important;
-    position: relative;
-    top: -0.3em;
-    vertical-align: baseline;
-}
-.g-shop-by li a .hover-cta {
-    background: none repeat scroll 0 0 #c21e2d;
-    border: 1px solid #ffffff;
-    display: none;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 5;
-}
-.g-shop-by li a:hover .hover-cta {
-    display: table;
-}
-.g-shop-by li div.hover-cta p {
-    display: table-cell;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    font-size: 0.75em;
-    margin-top: 10px;
-    padding-top: 0;
-    text-align: center;
-    vertical-align: middle;
-}
-.g-shop-by li.break {
-    border: medium none;
-    height: 0 !important;
-    margin: 0 !important;
-    max-width: none;
-    width: 100% !important;
-}
-
 //serchbox
 #header #search-bar {
     margin: 15px 15px 15px 0;
@@ -590,7 +433,7 @@ img {
     text-transform: none;
 }
 a.link-button {
-    background: url("/assets/store/icon_arrowGo.png") no-repeat scroll right 0 transparent;
+    background: url("/assets/icon_arrowGo.png") no-repeat scroll right 0 transparent;
     display: inline-block;
     font-size: 13px;
     height: 18px;
@@ -657,13 +500,11 @@ a.link-button.underlined {
 #slider-a-1::after {
     clear: both;
 }
+
 #slider-a-1 {
-    height: 512px;
-}
-#slider-a-1 {
-    height: auto;
+    //height: auto;
     max-width: 1366px;
-    overflow: hidden;
+   // overflow: hidden;
     position: relative;
     z-index: 1;
 }
@@ -675,13 +516,13 @@ a.link-button.underlined {
 ul, ol {
     margin: 0;
 }
-ul, ol {
-    margin: 0 0 10px 25px;
-    padding: 0;
-}
-ol, ul {
-    list-style: outside none none;
-}
+// ul, ol {
+    // margin: 0 0 10px 25px;
+    // padding: 0;
+// }
+// ol, ul {
+    // list-style: outside none none;
+// }
 ul, ol {
     list-style-position: inside;
     margin-left: 0;
@@ -690,7 +531,7 @@ ul, ol {
 }
 
 #slider-a-1 .carousel-slides li:first-child {
-    display: block;
+    display: inline;
 }
 #slider-a-1 .carousel-slides li {
     display: none;
@@ -763,24 +604,11 @@ img {
     color: #fff;
 }
 
-#slider-a-1 .carousel-slides .lb-details-wrap-left-half .lb-slide-copy {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-    vertical-align: middle;
-    width: 100%;
-    z-index: 10;
-}
-.text-color-white {
-    color: #fff;
-}
+
 #slider-a-1 .carousel-slides .lb-details-wrap-left-half .lb-slide-copy h2 {
     font-size: 4.714em;
     letter-spacing: 2px;
-    line-height: 0.8em;
+    //line-height: 0.8em;
 }
 #slider-a-1 .carousel-slides .lb-details-wrap-left-half .lb-slide-copy h3 {
     font-size: 1.572em;
@@ -816,21 +644,21 @@ h3 {
 
 
 #slider-a-1 .carousel-slides .lb-details-wrap-left-half {
-    height: 100%;
+    //height: 100%;
     position: absolute;
     width: 50%;
 }
- p {
-     padding: 0;
- }
- p {
-    margin: 0 0 10px;
-}
- p {
-     padding: 10px 0;
- }
+ // p {
+     // padding: 0;
+ // }
+ // p {
+    // margin: 0 0 10px;
+// }
+ // p {
+     // padding: 10px 0;
+ // }
 
- css gor shop men button
+ 
 
 
  #slider-a-1 .carousel-slides .lb-details-wrap-left-half a.first-button {
@@ -959,7 +787,7 @@ a {
  .red-shop-button span {
      background-position: -21px -1px !important;
  }
-//css for  for 
+//css for  for  slider
 #slider-a-1 .carousel-controller {
     float: right;
     position: absolute;
@@ -976,24 +804,6 @@ a {
 #slider-a-1 .carousel-controller .middle ul {
     list-style: outside none none;
 }
-ul, ol {
-    margin: 0;
-}
-ul, ol {
-    margin: 0 0 10px 25px;
-    padding: 0;
-}
-ol, ul {
-    list-style: outside none none;
-}
-ul, ol {
-    list-style-position: inside;
-    margin-left: 0;
-    margin-top: 0;
-    padding-left: 0;
-}
-
-
 #slider-a-1 .carousel-controller .middle ul li.active::after {
     border-right-color: #232323;
     border-width: 19px 10px;
@@ -1008,8 +818,7 @@ ul, ol {
     border-style: solid;
     border-width: 19px 0;
     content: " ";
-   
-    pointer-events: none;
+   pointer-events: none;
     position: absolute;
     right: 100%;
     top: 0;
@@ -1022,7 +831,6 @@ ul, ol {
     cursor: pointer;
     font-family: "TradeGothicW01-BoldCn20 675334";
     font-size: 20px;
-    height: 18px;
     line-height: 100%;
     margin: 6px 0;
     padding: 10px 12px;
@@ -1037,7 +845,6 @@ li {
     background-color: #232323;
     color: #fff;
 }
-
 
 // code for more link
 
@@ -1059,6 +866,10 @@ element.style {
     vertical-align: middle;
     z-index: 1000;
 }
+.Link-more:hover{
+  color:#232323 !important;
+  text-decoration:none;
+}
 div p.link-more-p {
     margin-left: 9px;
     margin-top: 1px;
@@ -1073,10 +884,7 @@ div p.link-more-p {
     width: 19px;
 }
 
-
-
-
-
+//code for lb_delivery buttton
 .lb_delivery{
    height: 170px !important;
 }
@@ -1123,6 +931,8 @@ div p.link-more-p {
 
 a.lb_delivery_btn {
     vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px;
 }
 a.lb_delivery_btn {
     background-color: #fff;
@@ -1135,21 +945,11 @@ a.lb_delivery_btn {
     vertical-align: middle;
 }
 
-
-.button {
-    border: medium none !important;
-    letter-spacing: 0.5px;
-}
-
 .lb_delivery_btn {
     background: none repeat scroll 0 0 #fff;
     color: #232323;
     
 }
-
-
-
-
 
 .lb_delivery_btn_wrap {
     display: block;
@@ -1158,38 +958,51 @@ a.lb_delivery_btn {
     margin-left: 20px;
 }
 .lb_delivery_button {
- text-align: center;
-margin: auto;
-    display: inline-block;
-    font-family: "TradeGothicW01-BoldCn20 675334";
-    font-size: 13px;
-    overflow: hidden;
-    padding: 5px;
-    vertical-align: middle;
-    background: none repeat scroll 0 0 #fff;
+   display: inline-block;
+  font-family: "TradeGothicW01-BoldCn20 675334";
+  font-size: 14px;
+  overflow: hidden;
+  padding: 5px;
+  vertical-align: middle;
+  background: none repeat scroll 0 0 #fff;
     color: #232323;
     padding: 5px;
-    margin-top: 7px;
-   //  height: 39px!important;
-   line-height:-moz-block-height;
+  text-align: center;
+ margin: auto;
+    
 }
 .lb_delivery_button p{
-  border:1px solid #000;
+  //border:1px solid #000;
+    border: 1px solid #232323;
+    border: 1px solid #edb8c1;
+    display: inline-block;
+    font-size: inherit;
+    line-height: 100%;
+    margin: 0;
+    padding: 6px 2px;
+    vertical-align: middle;
 }
 
 .lb_delivery_button:hover p{
   border:1px solid #ebd8c1 !important;
   color:#fff !important;
+  text-decoration:none !important;
   
 }
 .lb_delivery_button:hover{
-  background:none repeat scroll 0 0 #c51230;
+  background:none repeat scroll 0 0 #800000;
+  text-decoration:none !important;
+   
   }
 
  .lb_delivery_button span {
      background-position: -21px -23px !important;
       height: 16px;
     width: 16px;
+     margin-left: 5px;
+    margin-top: -2px;
+    text-align: left;
+    padding-top: 10px !important;
  }
 // .button span {
     // height: 16px;
@@ -1200,10 +1013,12 @@ margin: auto;
     display: inline-block;
     margin-left: 3px; 
     margin-right: 4px;
-    margin-top: 7px;
+    
     text-align: left;
     text-indent: -9999px;
     vertical-align: top;
+     height: 16px;
+     width: 16px;
 }
 
 // .lb_delivery_button:hover p {
@@ -1218,6 +1033,17 @@ margin: auto;
   width:100%;
   
 }
+.lb_delivery_button:hover span{
+  background-position: 0px 0px !important;
+      height: 16px;
+    width: 16px;
+    
+}
+// .lb_delivery_button:hover span  {
+    // background: url("/assets/cta-arrows.png") no-repeat scroll 0 0 transparent;
+    // height: 16px;
+    // width: 16px;
+// }
 
 
 //images
@@ -1384,7 +1210,7 @@ a:link {
   
   display: inline-block;
   font-family: "TradeGothicW01-BoldCn20 675334";
-  font-size: 13px;
+  font-size: 14px;
   overflow: hidden;
   padding: 5px;
   vertical-align: middle;
@@ -1419,6 +1245,12 @@ a:link {
     height: 16px;
     width: 16px;
     background-position: -21px -23px !important;
+}
+.find_store_button:hover span{
+  background-position: 0px 0px !important;
+      height: 16px;
+    width: 16px;
+    
 }
 h1, h2, h3, h4, h5, h6 {
     color: inherit !important;
